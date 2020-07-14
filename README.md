@@ -11,15 +11,15 @@
  
  ![fake-news-detection](https://user-images.githubusercontent.com/67892708/87383431-d8c91d00-c5b6-11ea-9d07-e47afe96f7f3.jpg)
  
- #### **What is PassiveAggressiveClassifier?**
+#### **What is PassiveAggressiveClassifier?**
  
     PassiveAggressive algorithm are a family of algorithms for large scale learning.It is used to shuffle the training data,when shuffle is set to frame.
    
- #### **Family of PassiveAggressive are:**
+#### **Family of PassiveAggressive are:**
  
  ![classification](https://user-images.githubusercontent.com/67892708/87384293-00b98000-c5b9-11ea-9593-92f67fd2d651.png)
  
- #### **What is TfidVectorizer?**
+#### **What is TfidVectorizer?**
  
   The TfidVectorizer will *tokenize* documets ,learn the vocabulary and inverse the document frequency weighting and allow you to encode new documents.
    
