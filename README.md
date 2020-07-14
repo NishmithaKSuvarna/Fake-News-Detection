@@ -9,5 +9,8 @@
  Using sklearn  we build a TfidVectorizer on our dataset.Then we intialize a PassiveAggressiveClassifier and fit the model.At the end the accuracy score and confusion matrix tells
  how our model fares.
  
+ ![fake-news-detection](https://user-images.githubusercontent.com/67892708/87383431-d8c91d00-c5b6-11ea-9d07-e47afe96f7f3.jpg)
  
+** What is PassiveAggressiveClassifier **
+
  
