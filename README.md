@@ -48,6 +48,9 @@
   
 #### **Accuracy is computed as belows:**
 
+![accuracy](https://user-images.githubusercontent.com/67892708/87388253-11222880-c5c2-11ea-8d6c-42e14bd8dd0b.png)
+
+
 
 
 
