@@ -84,6 +84,53 @@ The info function is used to print a concise summary of a dataframe.This method 
 dataframe.info()
 ```
 
+**What is .keys() function?**
+
+The keys function returns the *'info axis'* for the pandas object.If the pandas object is series then it returns index.If the pandas object is dataFrame then it retrurns columns.
+
+```
+dataframe.keys()
+```
+
+**To get the shape of the object**
+
+```
+dataframe.shape
+```
+
+**What is .describe() function?**
+
+The describe method computes a summary of statistics pertaining to the DataFrame columns.
+
+```
+dataframe.describe()
+```
+
+**What is .head() function?**
+
+This function returns the first n rows for the object based on position.It is useful for quickly testing if your object has right type of data in it.
+
+```
+dataframe.head()
+```
+
+**Labelling**
+
+Data labelling is important because the machine learning algorithm has to understand the data.
+
+```
+labels=dataframe.label
+labels.head()
+```
+
+**Split the dataset into Training and Testing**
+
+ + *Training set:* A subset to train a model.
+ 
+ + *Test set:* A subset to test the trained model.
+
+
+
 
 
 
