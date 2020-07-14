@@ -61,20 +61,30 @@
 
 ```
 import numpy as np
-
 import pandas as pd
-
 import intertools
-
 from sklearn.model_selection import train_test_split
-
 from sklearn.feature_extraction.text import TfidVectorizer
-
 from sklearn.linear_model import PassiveAggressiveClassifier
-
 from sklearn.metrics import accuracy_score,confusion_matrix
+```
+
+**Now read the data**
 
 ```
+dataframe=pd.read_csv("news.csv)
+dataframe
+```
+
+**What is .info() function?**
+
+The info function is used to print a concise summary of a dataframe.This method prints information about a dataFrame.This method prints information about a DataFrame including the index dtype and column ,non-null values and memory usage.
+
+```
+dataframe.info()
+```
+
+
 
 
 
