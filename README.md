@@ -11,9 +11,9 @@
  
  ![fake-news-detection](https://user-images.githubusercontent.com/67892708/87383431-d8c91d00-c5b6-11ea-9d07-e47afe96f7f3.jpg)
  
-#### **What is PassiveAggressiveClassifier?**
+## **What is PassiveAggressiveClassifier?**
  
-    PassiveAggressive algorithm are a family of algorithms for large scale learning.It is used to shuffle the training data,when shuffle is set to frame.
+  PassiveAggressive algorithm are a family of algorithms for large scale learning.It is used to shuffle the training data,when shuffle is set to frame.
    
 #### **Family of PassiveAggressive are:**
  
