@@ -50,6 +50,27 @@
 
 ![accuracy](https://user-images.githubusercontent.com/67892708/87388253-11222880-c5c2-11ea-8d6c-42e14bd8dd0b.png)
 
+*Now let's get into coding!!!*
+
+**Install all the necessary libraries using pip.**
+
+```
+!pip install numpy pandas sklearn
+```
+**Make all the necessary imports**
+
+```
+import numpy as np
+
+import pandas as pd
+
+import intertools
+
+from sklearn.model_selection import train_test_split
+
+from
+
+
 
 
 
