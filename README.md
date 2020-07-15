@@ -137,25 +137,56 @@ labels.head()
 x_train,x_test,,y_train,y_test=train_test_split(dataframe['text'],labels,test_size=0.2,random_state=7)
 ```
 
-**Initialize a TfidVectorizer**
+**TfidVectorizer**
+
+*Initialize a TfidVectorizer.*
 
 ```
 tfidf_vectorizer=TfidVectorizer(stop_words='english',max_df=0.7)
 ```
 
-**Fit and transform trin set,transform test set**
+*Fit and transform trin set,transform test set.*
 
 ```
 tfidf_train=tfidf_vectorizer.fit_transform(x_train)
 tfidf_test=tfidf_vectorizer.transform(x_test)
 ```
 
-**Initialize a PassiveAggressiveClassifier**
+**PassiveAggressiveClassifier**
+
+*Initialize a PassiveAggressiveClassifier.*
 
 ```
 pac=PassiveAggressiveClassifier(max_iter=50)
 pac.fit(tfidf_train,y_train)
 ```
+
+*Predict on the test set and calculate the accuracy.*
+
+```
+y_pred=pac.predict(tfidf_test)
+score=accuracy_score(y_test,y_pred)
+print(f'Accuracy: {rund(score*100,2)}%')
+```
+
+The accuracy obtained with this model is 93.05%.
+
+**Printing the confusion matrix**
+
+```
+confusion_matrix(y_test,y_pred,labels=['FAKE','REAL'])
+```
+
+```
+OUTPUT:
+array([[592, 46],
+       [ 42, 587]],dtype=int64)
+       
+```
+
+Therefore from this model, according to confusion matrix ,we have 592 true positives,587 true negatives, 42 false positives and 46 false negatives.
+
+
 
 
 
