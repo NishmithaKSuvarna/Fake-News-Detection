@@ -6,10 +6,13 @@
 ## About this project:
  This project aims at detecting fake news.
  
- Using sklearn  we build a TfidVectorizer on our dataset.Then we intialize a PassiveAggressiveClassifier and fit the model. At the end the accuracy score and confusion matrix tells
- how our model fares.
+ Using sklearn  we build a *TfidVectorizer* on our dataset.Then we intialize a *PassiveAggressiveClassifier* and fit the model. At the end the *accuracy score* and *confusion matrix* tells how our model fares.
  
  ![fake-news-detection](https://user-images.githubusercontent.com/67892708/87383431-d8c91d00-c5b6-11ea-9d07-e47afe96f7f3.jpg)
+ 
+ ## The DataSet:
+  The dataset that we use here is **news.csv**.This dataset takes upto 29.2MB of space amd you can
+  [download it here.](https://drive.google.com/file/d/1er9NJTLUA3qnRuyhfzuN0XUsoIC4a-_q/view)
  
 #### **What is PassiveAggressiveClassifier?**
  
