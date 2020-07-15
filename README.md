@@ -1,12 +1,12 @@
 # FAKE-NEWS-DETECTION
 
 ## What is fake news?
- Fake news,also known as junk news,pseudo news is a form of news consisting of deliberste disinformation spread via traditional news media or online social media.
+ Fake news, also known as junk news, pseudo news is a form of news consisting of deliberste disinformation spread via traditional news media or online social media.
  
 ## About this project:
  This project aims at detecting fake news.
  
- Using sklearn  we build a TfidVectorizer on our dataset.Then we intialize a PassiveAggressiveClassifier and fit the model.At the end the accuracy score and confusion matrix tells
+ Using sklearn  we build a TfidVectorizer on our dataset.Then we intialize a PassiveAggressiveClassifier and fit the model. At the end the accuracy score and confusion matrix tells
  how our model fares.
  
  ![fake-news-detection](https://user-images.githubusercontent.com/67892708/87383431-d8c91d00-c5b6-11ea-9d07-e47afe96f7f3.jpg)
@@ -145,7 +145,7 @@ x_train,x_test,,y_train,y_test=train_test_split(dataframe['text'],labels,test_si
 tfidf_vectorizer=TfidVectorizer(stop_words='english',max_df=0.7)
 ```
 
-*Fit and transform trin set,transform test set.*
+*Fit and transform train set,transform test set.*
 
 ```
 tfidf_train=tfidf_vectorizer.fit_transform(x_train)
@@ -185,6 +185,10 @@ array([[592, 46],
 ```
 
 Therefore from this model, according to confusion matrix ,we have 592 true positives,587 true negatives, 42 false positives and 46 false negatives.
+
+#### **CONCLUSION**
+
+Using this model, to detect fake news, we have obtained an accuracy of 93.05%.
 
 
 
