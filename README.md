@@ -46,7 +46,7 @@
   
   + *False Negative(FN):* Observation is positive,but is predicted negative.
   
-  + *True Negative(TN):* Observation is negative,and is predicted to be positive.
+  + *True Negative(TN):* Observation is negative,and is predicted to be negative.
   
   + *False Positive(FP):* Observation is negative,but is predicted positive.
   
