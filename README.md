@@ -198,9 +198,9 @@ Using this model, to detect fake news, we have obtained an accuracy of 93.05%.
 
 **Reference:** *DLITHE*
 
-**Website:** www.dlithe.com
+**Website:** [www.dlithe.com](www.dlithe.com)
 
-*Assignment during Online Internship with Dlithe*[www.dlithe.com](www.dlithe.com)
+*Assignment during Online Internship with Dlithe* [www.dlithe.com](www.dlithe.com)
 
 
 
