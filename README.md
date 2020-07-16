@@ -50,7 +50,7 @@
   
   + *False Positive(FP):* Observation is negative,but is predicted positive.
   
-#### **Accuracy is computed as belows:**
+#### **Accuracy is computed as shown below:**
 
 ![accuracy](https://user-images.githubusercontent.com/67892708/87388253-11222880-c5c2-11ea-8d6c-42e14bd8dd0b.png)
 
@@ -196,8 +196,9 @@ Using this model, to detect fake news, we have obtained an accuracy of 93.05%.
 
 
 
-
-
+**Reference:** *DLITHE*
+**Website:** www.dlithe.com
+*Assignment during Online Internship with Dlithe*[www.dlithe.com](www.dlithe.com)
 
 
 
