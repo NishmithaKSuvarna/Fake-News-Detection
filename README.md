@@ -1,7 +1,7 @@
 # FAKE-NEWS-DETECTION
 
 ## What is fake news?
- Fake news, also known as junk news, pseudo news is a form of news consisting of deliberste disinformation spread via traditional news media or online social media.
+ Fake news, also known as junk news, pseudo news is a form of news consisting of deliberate disinformation spread via traditional news media or online social media.
  
 ## About this project:
  This project aims at detecting fake news.
